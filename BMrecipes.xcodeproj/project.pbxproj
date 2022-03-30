@@ -7,22 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		850F096627F435A20089262B /* MBRECIPESApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F096527F435A20089262B /* MBRECIPESApp.swift */; };
-		850F096827F435A20089262B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F096727F435A20089262B /* ContentView.swift */; };
-		850F096A27F435A30089262B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850F096927F435A30089262B /* Assets.xcassets */; };
-		850F096D27F435A30089262B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850F096C27F435A30089262B /* Preview Assets.xcassets */; };
+		850F094627F42EF30089262B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F094527F42EF30089262B /* AppDelegate.swift */; };
+		850F094827F42EF30089262B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F094727F42EF30089262B /* SceneDelegate.swift */; };
+		850F094A27F42EF30089262B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850F094927F42EF30089262B /* ViewController.swift */; };
+		850F094D27F42EF30089262B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850F094B27F42EF30089262B /* Main.storyboard */; };
+		850F094F27F42EF60089262B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 850F094E27F42EF60089262B /* Assets.xcassets */; };
+		850F095227F42EF60089262B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 850F095027F42EF60089262B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		850F096227F435A20089262B /* MBRECIPES.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBRECIPES.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		850F096527F435A20089262B /* MBRECIPESApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBRECIPESApp.swift; sourceTree = "<group>"; };
-		850F096727F435A20089262B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		850F096927F435A30089262B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		850F096C27F435A30089262B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		850F094227F42EF30089262B /* BMrecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BMrecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		850F094527F42EF30089262B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		850F094727F42EF30089262B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		850F094927F42EF30089262B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		850F094C27F42EF30089262B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		850F094E27F42EF60089262B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		850F095127F42EF60089262B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		850F095327F42EF60089262B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		850F095F27F435A20089262B /* Frameworks */ = {
+		850F093F27F42EF30089262B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,77 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		850F095927F435A20089262B = {
+		850F093927F42EF30089262B = {
 			isa = PBXGroup;
 			children = (
-				850F096427F435A20089262B /* MBRECIPES */,
-				850F096327F435A20089262B /* Products */,
+				850F094427F42EF30089262B /* BMrecipes */,
+				850F094327F42EF30089262B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		850F096327F435A20089262B /* Products */ = {
+		850F094327F42EF30089262B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				850F096227F435A20089262B /* MBRECIPES.app */,
+				850F094227F42EF30089262B /* BMrecipes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		850F096427F435A20089262B /* MBRECIPES */ = {
+		850F094427F42EF30089262B /* BMrecipes */ = {
 			isa = PBXGroup;
 			children = (
-				850F096527F435A20089262B /* MBRECIPESApp.swift */,
-				850F096727F435A20089262B /* ContentView.swift */,
-				850F096927F435A30089262B /* Assets.xcassets */,
-				850F096B27F435A30089262B /* Preview Content */,
+				850F094527F42EF30089262B /* AppDelegate.swift */,
+				850F094727F42EF30089262B /* SceneDelegate.swift */,
+				850F094927F42EF30089262B /* ViewController.swift */,
+				850F094B27F42EF30089262B /* Main.storyboard */,
+				850F094E27F42EF60089262B /* Assets.xcassets */,
+				850F095027F42EF60089262B /* LaunchScreen.storyboard */,
+				850F095327F42EF60089262B /* Info.plist */,
 			);
-			path = MBRECIPES;
-			sourceTree = "<group>";
-		};
-		850F096B27F435A30089262B /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				850F096C27F435A30089262B /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = BMrecipes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		850F096127F435A20089262B /* MBRECIPES */ = {
+		850F094127F42EF30089262B /* BMrecipes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 850F097027F435A30089262B /* Build configuration list for PBXNativeTarget "MBRECIPES" */;
+			buildConfigurationList = 850F095627F42EF60089262B /* Build configuration list for PBXNativeTarget "BMrecipes" */;
 			buildPhases = (
-				850F095E27F435A20089262B /* Sources */,
-				850F095F27F435A20089262B /* Frameworks */,
-				850F096027F435A20089262B /* Resources */,
+				850F093E27F42EF30089262B /* Sources */,
+				850F093F27F42EF30089262B /* Frameworks */,
+				850F094027F42EF30089262B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MBRECIPES;
-			productName = MBRECIPES;
-			productReference = 850F096227F435A20089262B /* MBRECIPES.app */;
+			name = BMrecipes;
+			productName = BMrecipes;
+			productReference = 850F094227F42EF30089262B /* BMrecipes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		850F095A27F435A20089262B /* Project object */ = {
+		850F093A27F42EF30089262B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					850F096127F435A20089262B = {
+					850F094127F42EF30089262B = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 850F095D27F435A20089262B /* Build configuration list for PBXProject "MBRECIPES" */;
+			buildConfigurationList = 850F093D27F42EF30089262B /* Build configuration list for PBXProject "BMrecipes" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 850F095927F435A20089262B;
-			productRefGroup = 850F096327F435A20089262B /* Products */;
+			mainGroup = 850F093927F42EF30089262B;
+			productRefGroup = 850F094327F42EF30089262B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				850F096127F435A20089262B /* MBRECIPES */,
+				850F094127F42EF30089262B /* BMrecipes */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		850F096027F435A20089262B /* Resources */ = {
+		850F094027F42EF30089262B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850F096D27F435A30089262B /* Preview Assets.xcassets in Resources */,
-				850F096A27F435A30089262B /* Assets.xcassets in Resources */,
+				850F095227F42EF60089262B /* LaunchScreen.storyboard in Resources */,
+				850F094F27F42EF60089262B /* Assets.xcassets in Resources */,
+				850F094D27F42EF30089262B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		850F095E27F435A20089262B /* Sources */ = {
+		850F093E27F42EF30089262B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				850F096827F435A20089262B /* ContentView.swift in Sources */,
-				850F096627F435A20089262B /* MBRECIPESApp.swift in Sources */,
+				850F094A27F42EF30089262B /* ViewController.swift in Sources */,
+				850F094627F42EF30089262B /* AppDelegate.swift in Sources */,
+				850F094827F42EF30089262B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		850F094B27F42EF30089262B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850F094C27F42EF30089262B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		850F095027F42EF60089262B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				850F095127F42EF60089262B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		850F096E27F435A30089262B /* Debug */ = {
+		850F095427F42EF60089262B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		850F096F27F435A30089262B /* Release */ = {
+		850F095527F42EF60089262B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,19 +282,18 @@
 			};
 			name = Release;
 		};
-		850F097127F435A30089262B /* Debug */ = {
+		850F095727F42EF60089262B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MBRECIPES/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = BMrecipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -281,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ugatest.MBRECIPES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugatest.BMrecipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -289,19 +309,18 @@
 			};
 			name = Debug;
 		};
-		850F097227F435A30089262B /* Release */ = {
+		850F095827F42EF60089262B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MBRECIPES/Preview Content\"";
-				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = BMrecipes/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ugatest.MBRECIPES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ugatest.BMrecipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		850F095D27F435A20089262B /* Build configuration list for PBXProject "MBRECIPES" */ = {
+		850F093D27F42EF30089262B /* Build configuration list for PBXProject "BMrecipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				850F096E27F435A30089262B /* Debug */,
-				850F096F27F435A30089262B /* Release */,
+				850F095427F42EF60089262B /* Debug */,
+				850F095527F42EF60089262B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		850F097027F435A30089262B /* Build configuration list for PBXNativeTarget "MBRECIPES" */ = {
+		850F095627F42EF60089262B /* Build configuration list for PBXNativeTarget "BMrecipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				850F097127F435A30089262B /* Debug */,
-				850F097227F435A30089262B /* Release */,
+				850F095727F42EF60089262B /* Debug */,
+				850F095827F42EF60089262B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 850F095A27F435A20089262B /* Project object */;
+	rootObject = 850F093A27F42EF30089262B /* Project object */;
 }
